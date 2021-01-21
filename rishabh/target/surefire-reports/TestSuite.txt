@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.031 s <<< FAILURE! - in TestSuite
+apiTest.apiTest  Time elapsed: 32.641 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'ApiDemos' or 'io.appium.android.apis.ApiDemos' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-09LJIS2', ip: '192.168.29.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'ApiDemos' or 'io.appium.android.apis.ApiDemos' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\aarus\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\aarus\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:384:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-09LJIS2', ip: '192.168.29.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+	at apiTest.apiTest(apiTest.java:18)
+Caused by: java.lang.reflect.InvocationTargetException
+	at apiTest.apiTest(apiTest.java:18)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'ApiDemos' or 'io.appium.android.apis.ApiDemos' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-09LJIS2', ip: '192.168.29.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'io.appium.android.apis' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'ApiDemos' or 'io.appium.android.apis.ApiDemos' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\aarus\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\aarus\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:384:37)
+	at apiTest.apiTest(apiTest.java:18)
+
